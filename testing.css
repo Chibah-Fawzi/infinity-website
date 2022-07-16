@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 10px 120px;
+  font-family: "Montserrat", sans-serif;
+  background: #fafafa;
+}
+
+/* NAVBAR SECTION */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #3f53d8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+/* MAIN SECTION */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12vh;
+}
+
+.main-content h1 {
+  font-size: 55px;
+}
+p {
+  font-size: 15px;
+  color: rgb(107, 104, 104);
+}
+
+.insights {
+  display: flex;
+}
+.insights p {
+  color: black;
+}
+.insights * {
+  margin-right: 20px;
+}
+
+/* SECONDARY SECTION */
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.secondary-content {
+  width: 550px;
+  text-align: center;
+}
+.secondary-content h1 {
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card button {
+  width: 100%;
+}
